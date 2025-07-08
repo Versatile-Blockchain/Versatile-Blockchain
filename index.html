@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versatile Network | The Foundation for Web 4.0</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: #e2e8f0;
+        }
+        .hero-gradient {
+            background: radial-gradient(ellipse at top, rgba(56, 189, 248, 0.15), transparent 60%), radial-gradient(ellipse at bottom, rgba(167, 139, 250, 0.15), transparent 70%);
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(167, 139, 250, 0.5);
+        }
+        .protocol-card {
+            background: #111827;
+            border: 1px solid #374151;
+        }
+        .stat-highlight {
+            color: #67e8f9;
+        }
+        .section-title {
+            font-weight: 900;
+            font-size: 2.25rem; /* 36px */
+            line-height: 2.5rem; /* 40px */
+            letter-spacing: -0.025em;
+        }
+        @media (min-width: 768px) {
+            .section-title {
+                font-size: 3rem; /* 48px */
+                line-height: 1;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-2xl font-bold tracking-tighter">
+                        <span class="text-sky-400">Versatile</span><span class="text-violet-400">Network</span>
+                    </a>
+                </div>
+                <nav class="hidden md:flex md:space-x-8">
+                    <a href="#architecture" class="text-slate-300 hover:text-sky-400 transition-colors">Architecture</a>
+                    <a href="#protocols" class="text-slate-300 hover:text-sky-400 transition-colors">Protocols</a>
+                    <a href="#varp" class="text-slate-300 hover:text-sky-400 transition-colors">VARP</a>
+                    <a href="#differentiators" class="text-slate-300 hover:text-sky-400 transition-colors">Advantages</a>
+                </nav>
+                <div class="flex items-center">
+                    <a href="#" class="bg-violet-600 hover:bg-violet-500 text-white font-semibold px-4 py-2 rounded-lg transition-colors">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative pt-32 pb-20 md:pt-48 md:pb-32 hero-gradient">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-violet-400">
+                    Building Web 4.0 for the Internet of Everything
+                </h1>
+                <p class="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-slate-400">
+                    The Versatile Network is a novel, decentralized, multi-layer blockchain architecture that does not rely on cryptocurrency. We provide a unified, secure, and free protocol for seamless device interconnection in the IoE era.
+                </p>
+                <div class="mt-8 flex justify-center gap-4">
+                    <a href="#architecture" class="bg-sky-500 hover:bg-sky-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                        Explore the Tech
+                    </a>
+                    <a href="#" class="bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                        Read Whitepaper
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Architecture -->
+        <section id="architecture" class="py-20 md:py-32">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 md:mb-16">
+                    <h2 class="section-title">A Multi-Layered Foundation</h2>
+                    <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-400">Our network is structured into distinct layers and nodes, creating a robust and scalable framework for decentralized communication.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <!-- Federated Nodes -->
+                    <div class="feature-card p-8 rounded-xl">
+                        <div class="flex justify-center items-center mb-4 bg-violet-900/50 h-16 w-16 rounded-full mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="text-violet-400">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Federated Nodes</h3>
+                        <p class="mt-2 text-slate-400">High-level nodes that act as "trust oracles," managing state changes, storage allocation, and verifying communications within their federated area.</p>
+                    </div>
+                    <!-- Router Nodes -->
+                    <div class="feature-card p-8 rounded-xl">
+                        <div class="flex justify-center items-center mb-4 bg-sky-900/50 h-16 w-16 rounded-full mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="text-sky-400">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Router Nodes</h3>
+                        <p class="mt-2 text-slate-400">The first point of contact for P2P connections. They validate peer connections, pre-process state changes, and relay information efficiently.</p>
+                    </div>
+                    <!-- Endpoint Nodes -->
+                    <div class="feature-card p-8 rounded-xl">
+                        <div class="flex justify-center items-center mb-4 bg-green-900/50 h-16 w-16 rounded-full mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="text-green-400">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Endpoint Nodes</h3>
+                        <p class="mt-2 text-slate-400">End-user devices that run client applications, initiate data requests, and leverage the network's computational resources.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bespoke Protocols Section -->
+        <section id="protocols" class="py-20 md:py-32 bg-black/50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 md:mb-16">
+                    <h2 class="section-title">Powered by Bespoke Protocols</h2>
+                    <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-400">We've engineered a suite of unique protocols to achieve decentralization, security, and scalability without cryptocurrency.</p>
+                </div>
+
+                <div class="space-y-12">
+                    <!-- AFSP -->
+                    <div class="protocol-card rounded-xl overflow-hidden md:flex">
+                        <div class="p-8 md:w-1/2">
+                            <h3 class="text-2xl font-bold text-sky-400">Adaptive Federated Synchronization Protocol (AFSP)</h3>
+                            <p class="mt-4 text-slate-300">Ensures data consistency across the network through lightweight, periodic status pings. This maintains decentralized governance and offers robust fault tolerance with minimal bandwidth usage.</p>
+                        </div>
+                        <div class="bg-gray-800/50 p-8 md:w-1/2">
+                            <h4 class="font-semibold text-white">Key Features:</h4>
+                            <ul class="mt-4 space-y-2 text-slate-400">
+                                <li class="flex items-start"><span class="text-sky-400 mr-2 mt-1">&#10003;</span> Bandwidth-efficient synchronization.</li>
+                                <li class="flex items-start"><span class="text-sky-400 mr-2 mt-1">&#10003;</span> No single point of failure.</li>
+                                <li class="flex items-start"><span class="text-sky-400 mr-2 mt-1">&#10003;</span> Secure via aggregated signatures.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- DFIP -->
+                    <div class="protocol-card rounded-xl overflow-hidden md:flex">
+                         <div class="p-8 md:w-1/2">
+                            <h3 class="text-2xl font-bold text-violet-400">Dynamic Federated Identification Protocol (DFIP)</h3>
+                            <p class="mt-4 text-slate-300">A hierarchical addressing system that assigns unique, dynamic IDs to every node. It's built for massive scalability, supporting up to 2^64 unique nodes for limitless network expansion.</p>
+                        </div>
+                        <div class="bg-gray-800/50 p-8 md:w-1/2">
+                            <h4 class="font-semibold text-white">Key Features:</h4>
+                            <ul class="mt-4 space-y-2 text-slate-400">
+                                <li class="flex items-start"><span class="text-violet-400 mr-2 mt-1">&#10003;</span> Efficient routing and resource management.</li>
+                                <li class="flex items-start"><span class="text-violet-400 mr-2 mt-1">&#10003;</span> Dynamic address reassignment for optimization.</li>
+                                <li class="flex items-start"><span class="text-violet-400 mr-2 mt-1">&#10003;</span> Enables multi-network connectivity for resilience.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- PRBSR -->
+                    <div class="protocol-card rounded-xl overflow-hidden md:flex">
+                        <div class="p-8 md:w-1/2">
+                            <h3 class="text-2xl font-bold text-green-400">Progressive Resource-Based Sybil Resistance (PRBSR)</h3>
+                            <p class="mt-4 text-slate-300">Our groundbreaking Sybil attack prevention. Instead of money, users lock hardware resources (CPU, storage) tied to their activity, creating a truly decentralized and eco-friendly security model.</p>
+                        </div>
+                        <div class="bg-gray-800/50 p-8 md:w-1/2">
+                            <h4 class="font-semibold text-white">Performance Highlights:</h4>
+                            <ul class="mt-4 space-y-2 text-slate-400">
+                                <li class="flex items-start"><span class="text-green-400 mr-2 mt-1">&#10003;</span> <span class="stat-highlight font-bold">98.7%</span> spam blocked.</li>
+                                <li class="flex items-start"><span class="text-green-400 mr-2 mt-1">&#10003;</span> <span class="stat-highlight font-bold">>900x</span> lower energy use than PoW.</li>
+                                <li class="flex items-start"><span class="text-green-400 mr-2 mt-1">&#10003;</span> Hardware fingerprinting prevents multi-account abuse.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VARP Section -->
+        <section id="varp" class="py-20 md:py-32">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="md:grid md:grid-cols-2 md:gap-16 items-center">
+                    <div>
+                        <h2 class="section-title">VARP: A New Programming Paradigm</h2>
+                        <p class="mt-4 text-lg text-slate-400">Versatile Applicable Remote Program (VARP) is the network's native programming language and platform, designed from the ground up for distributed computing and the IoE.</p>
+                        <ul class="mt-8 space-y-4">
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 h-8 w-8 rounded-full bg-sky-500/20 text-sky-400 flex items-center justify-center mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11" /></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-white">Intent-Based Communication</h4>
+                                    <p class="text-slate-400">Applications interact via flexible and secure "intent" messages, not rigid API calls, perfect for a dynamic P2P environment.</p>
+                                </div>
+                            </li>
+                             <li class="flex items-start">
+                                <div class="flex-shrink-0 h-8 w-8 rounded-full bg-sky-500/20 text-sky-400 flex items-center justify-center mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-white">Off-Chain Integration</h4>
+                                    <p class="text-slate-400">VARP is designed for seamless interaction with external systems (C#, Python, Java), databases, and APIs, enabling powerful hybrid applications.</p>
+                                </div>
+                            </li>
+                             <li class="flex items-start">
+                                <div class="flex-shrink-0 h-8 w-8 rounded-full bg-sky-500/20 text-sky-400 flex items-center justify-center mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V7a2 2 0 012-2h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293H17z" /></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-white">Distributed VM</h4>
+                                    <p class="text-slate-400">Runs on a unique Virtual Machine optimized to distribute computation across network nodes and leverage shared GPU resources.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-10 md:mt-0">
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-gradient-to-tr from-violet-600 to-sky-500 rounded-xl transform -rotate-3"></div>
+                            <div class="relative bg-gray-900 p-6 rounded-xl border border-slate-700">
+                                <pre class="text-sm text-slate-300"><code class="language-javascript"><span class="text-violet-400">intent</span> SendMessage {
+    <span class="text-sky-400">to</span>: DFIPAddress,
+    <span class="text-sky-400">content</span>: String,
+    <span class="text-sky-400">priority</span>: <span class="text-yellow-400">Int</span> = <span class="text-green-400">1</span>
+}
+
+<span class="text-violet-400">app</span> MyChatApp {
+    <span class="text-sky-400">on</span>(<span class="text-yellow-400">ReceiveMessage</span>) { <span class="text-gray-500">// event listener</span>
+        <span class="text-yellow-400">display</span>(event.content);
+    }
+
+    <span class="text-violet-400">func</span> <span class="text-yellow-400">send</span>(address, message) {
+        <span class="text-yellow-400">emit</span> <span class="text-green-400">SendMessage</span>(
+            to: address,
+            content: message
+        );
+    }
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Differentiators Section -->
+        <section id="differentiators" class="py-20 md:py-32 bg-black/50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 md:mb-16">
+                    <h2 class="section-title">What Makes Us Different</h2>
+                    <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-400">Versatile Network is engineered to overcome the core limitations of today's blockchain technology.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="feature-card p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-white">Currency-Agnostic & Free</h3>
+                        <p class="mt-2 text-slate-400">By removing the need for a native cryptocurrency, we eliminate transaction fees for basic network operations, fostering innovation.</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-white">Direct External Access</h3>
+                        <p class="mt-2 text-slate-400">Unlike blockchains that require oracles, VARP is designed to interact directly with external systems, databases, and APIs.</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-white">Feasible Data Streaming</h3>
+                        <p class="mt-2 text-slate-400">Our architecture is built to handle large-scale data transfer and streaming, a task that is impractical or costly on other networks.</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-white">Distributed Computation</h3>
+                        <p class="mt-2 text-slate-400">Users can pool and share computing power, storage, and bandwidth, enabling high-performance applications on minimal hardware.</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-white">Decentralized Identity</h3>
+                        <p class="mt-2 text-slate-400">User identity and asset ownership are stored securely on-chain, verifiable without relying on centralized authorities.</p>
+                    </div>
+                     <div class="feature-card p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-white">Global Interoperability</h3>
+                        <p class="mt-2 text-slate-400">Designed to support a vast range of applications and interactions across borders, fostering a truly globalized digital economy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-white/10">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div class="md:flex md:justify-between">
+                    <div class="mb-6 md:mb-0">
+                         <a href="#" class="text-2xl font-bold tracking-tighter">
+                            <span class="text-sky-400">Versatile</span><span class="text-violet-400">Network</span>
+                        </a>
+                        <p class="mt-2 text-slate-400">The foundation for a decentralized future.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase">Resources</h2>
+                            <ul class="text-gray-400">
+                                <li class="mb-4"><a href="#" class="hover:underline">Documentation</a></li>
+                                <li><a href="#" class="hover:underline">Whitepaper</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase">Follow us</h2>
+                            <ul class="text-gray-400">
+                                <li class="mb-4"><a href="#" class="hover:underline ">Github</a></li>
+                                <li><a href="#" class="hover:underline">Discord</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase">Legal</h2>
+                            <ul class="text-gray-400">
+                                <li class="mb-4"><a href="#" class="hover:underline">Privacy Policy</a></li>
+                                <li><a href="#" class="hover:underline">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-6 border-gray-700 sm:mx-auto lg:my-8" />
+                <div class="text-center text-gray-500">
+                    &copy; 2024 Versatile Network™. All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>
